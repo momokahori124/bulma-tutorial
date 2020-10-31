@@ -54,7 +54,19 @@
                 <div class="column is-4">
                     <div class="is-12-tablet is-4-desktop mb-4">€10.95</div>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos dolores nam accusamus nulla dignissimos veniam vitae sunt minus natus illum?</p>
-                    <div class="button is-primary is-rounded mt-4">Add to Cart</div>
+            
+                    <div class="field mt-4">
+                        <div class="control mb-6">
+                            <div class="select is-dark">
+                                <select name="" id="">
+                                    <option value="">Small (250g)</option>
+                                    <option value="">Large (400g)</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="button is-primary is-rounded mt-2">Add to Cart</div>
                 </div>
             </div>
         </div>
@@ -65,7 +77,7 @@
             <div class="columns is-8 is-valiable">
                 <div class="column is-7-table">
                     <!-- tabbed comment -->
-                   <div class="tabs is-boxed has-background-light">
+                   <div class="tabs is-boxed">
                        <ul>
                            <li data-target="product-details" class="is-active">
                                <a class="has-text-grey">Product Details</a>
@@ -103,7 +115,7 @@
                             <p class="m-3 px-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati asperiores sint deserunt labore voluptates repellendus tempore quo commodi at! Officiis, adipisci? Voluptates facere earum quas ut repellendus nam minus esse.
                         </dev>
                         <div class="has-text-centered">
-                            <div class="button mt-5 mb-5 is-rounded">Sign Up</div>
+                            <div class="button mt-5 mb-5 is-rounded" id="signup">Sign Up</div>
                         </div>
                     </div>
                 </div>
@@ -111,7 +123,110 @@
         </div>
     </section>
 
+    <!-- cards -->
+    <section class="section is-hidden-mobile">
+        <div class="container">
+            <h3 class="title has-text-centered is-size-4">Related Product</h3>
 
+
+            <div class="columns mt-5 is-8 is-variable is-centered">
+
+                <div class="column is-4-tablet is-3-desktop">
+                    <div class="card">
+                        <div class="card-image has-text-centered px-6">
+                            <img src="assets/p1.png" alt="product">
+                        </div>
+                        <div class="card-content">
+                            <p>€12.95</p>
+                            <p class="title is-size-5">Contardo Cup</p>
+                        </div>
+                        <fotter class="card-fotter">
+                            <p class="card-footer-item">
+                                <a href="" class="has-text-grey">View</a>
+                            </p>
+                        </fotter>
+                    </div>
+                </div>
+
+                <div class="column is-4-tablet is-3-desktop">
+                    <div class="card">
+                        <div class="card-image has-text-centered px-6">
+                            <img src="assets/p2.png" alt="product">
+                        </div>
+                        <div class="card-content">
+                            <p>€12.95</p>
+                            <p class="title is-size-5">Docker Light</p>
+                        </div>
+                        <fotter class="card-fotter">
+                            <p class="card-footer-item">
+                                <a href="" class="has-text-grey">View</a>
+                            </p>
+                        </fotter>
+                    </div>
+                </div>
+
+                <div class="column is-4-tablet is-3-desktop">
+                    <div class="card">
+                        <div class="card-image has-text-centered px-6">
+                            <img src="assets/p3.png" alt="product">
+                        </div>
+                        <div class="card-content">
+                            <p>€12.95</p>
+                            <p class="title is-size-5">Coffee Crush</p>
+                        </div>
+                        <fotter class="card-fotter">
+                            <p class="card-footer-item">
+                                <a href="" class="has-text-grey">View</a>
+                            </p>
+                        </fotter>
+                    </div>
+                </div>
+
+            
+
+
+                
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- modal -->
+    <div class="modal" id="modal">
+        <dex class="modal-background">
+        </dex>
+        <dev class="modal-content py-5 px-5 has-background-white">
+            <h3 class="title mb-6">Join the Club</h3>
+            <form>
+                <div class="field">
+                    <label for="" class="label">Name</label>
+                    <div class="control">
+                        <input type="text" class="input" placeholder="name">
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="" class="label">Email</label>
+                    <div class="control">
+                        <input type="text" class="input" placeholder="email">
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <label class="checkbox">
+                            <input type="checkbox">
+                            I agree to the <a href="#" class="is-primary">Terms & conditions</a>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="mt-6 has-text-centered">
+                    <div class="button is-warning">Sign Up</div>
+                </div>
+
+            </form>
+        </dev>
+    </div>
   
     <script src="index.js"></script>
 </body>
