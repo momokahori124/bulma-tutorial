@@ -43,21 +43,74 @@
     <!-- product infomation -->
     <section class="section">
         <div class="container">
-            <div class="columns is-vcentered">
+            <div class="columns is-vcentered is-multiline">
                 <div class="column is-3">
-                    <h1 class="is-size-1 title">Docker</h1>
-                    <h2 class="is-size-2 subtitle">Dark Roast</h2>
+                    <h1 class="is-size-3-mobile is-size-1-desktop title">Docker</h1>
+                    <h2 class="is-size-3-mobile is-size-2-desktop subtitle">Dark Roast</h2>
 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos dolores nam accusamus nulla dignissimos veniam vitae sunt minus natus illum?</p>                </div>
-                <div class="column is-5 has-text-center">
+                <div class="column is-6-tablet is-5-desktop has-text-center">
                     <img src="assets/product.png" alt="docker coffee image" class="px-6">
                 </div>
                 <div class="column is-4">
-                    <div class="is-size-4 mb-4">€10.95</div>
+                    <div class="is-12-tablet is-4-desktop mb-4">€10.95</div>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos dolores nam accusamus nulla dignissimos veniam vitae sunt minus natus illum?</p>
+                    <div class="button is-primary is-rounded mt-4">Add to Cart</div>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-8 is-valiable">
+                <div class="column is-7-table">
+                    <!-- tabbed comment -->
+                   <div class="tabs is-boxed has-background-light">
+                       <ul>
+                           <li data-target="product-details" class="is-active">
+                               <a class="has-text-grey">Product Details</a>
+                            </li>
+                            <li data-target="delivery-information" >
+                                <a class="has-text-grey">Delivary Information</a>
+                             </li>
+                             <li data-target="more-information">
+                                <a class="has-text-grey">More Information</a>
+                             </li>
+                       </ul>
+                   </div>
+                   <div class="px-2" id="tab-content">
+                       <div id="product-details">
+                           <h3 class="is-size-5 title mb-0 mt-3">Product Details</h3>
+                           <p class="p-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore officiis rem voluptas aperiam maiores quis soluta excepturi dolorem similique, ea porro rerum sunt exercitationem sapiente alias iste, repellat cupiditate fugit.</p>
+                       </div>
+                       <div id="delivery-information" class="is-hidden">
+                           <h3 class="is-size-5 title mb-0 mt-3">Delivery Information</h3>
+                           <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit odio praesentium commodi voluptatem necessitatibus officia nesciunt ducimus cum architecto dolores repellendus fugiat recusandae veritatis minus, dicta, tempora consequatur possimus molestias?</p>
+                       </div>
+                       <div id="more-information" class="is-hidden">
+                        <h3 class="is-size-5 title mb-0 mt-3">More Information</h3>
+                        <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit odio praesentium commodi voluptatem necessitatibus officia nesciunt ducimus cum architecto dolores repellendus fugiat recusandae veritatis minus, dicta, tempora consequatur possimus molestias?</p>
+                    </div>
+                   </div>
+                </div>
+                <div class="column is-5-tablet">
+                    <!-- message box -->
+                    <div class="message">
+                        <div class="message-header">
+                            <p>Earn Points with the Coffee Club</p>
+                        </div>
+                        <dev class="message-body">
+                            <p class="m-3 px-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati asperiores sint deserunt labore voluptates repellendus tempore quo commodi at! Officiis, adipisci? Voluptates facere earum quas ut repellendus nam minus esse.
+                        </dev>
+                        <div class="has-text-centered">
+                            <div class="button mt-5 mb-5 is-rounded">Sign Up</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
   
     <script src="index.js"></script>
